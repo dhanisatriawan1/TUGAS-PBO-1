@@ -89,7 +89,7 @@ Pada contoh ini, pengguna memasukkan username `user1` dan password `user123`.
 
 ### Step 2: Beli Saham
 
-![Beli Saham](src/skenarioprogram/step2.png)
+![Beli Saham](skenarioprogram/step2.png)
 
 Setelah login, pengguna masuk ke Menu Customer dan memilih opsi 1 (Beli Saham).  
 Program kemudian menampilkan daftar saham yang tersedia, seperti BBRI dan TLKM, lengkap dengan harga per lembar.  
