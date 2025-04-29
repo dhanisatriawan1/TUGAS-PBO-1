@@ -1,3 +1,9 @@
+## Nama Kelompok
+### Dhani Satriawan (2405551129)
+### Tyo Putra Kharinata (2405551162)
+
+---
+
 ## UML
 
 @startuml
