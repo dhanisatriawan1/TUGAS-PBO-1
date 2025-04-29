@@ -78,8 +78,8 @@ Berikut ini adalah skenario lengkap program berbasis terminal yang mensimulasika
 ---
 
 ### Step 1: Login
+![Login](https://raw.githubusercontent.com/dhanisatriawan1/TUGAS-PBO-1/main/src/skenarioprogram/step1.png)
 
-![Login](src/skenarioprogram/step1.png)
 
 Setelah program dijalankan, pengguna akan melihat menu utama dengan dua pilihan: Login dan Keluar.  
 Pengguna memilih menu 1 (Login), lalu diminta memasukkan username dan password.  
