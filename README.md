@@ -1,3 +1,5 @@
+## UML
+
 @startuml
 
 class Main {
@@ -70,6 +72,10 @@ Portofolio "1" o-- "*" Saham
 Portofolio "1" o-- "*" SuratBerhargaNegara
 
 @enduml
+
+---
+
+### Diagram UML
 
 ![](skenarioprogram/UML.png)
 
