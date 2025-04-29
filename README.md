@@ -73,12 +73,14 @@ Portofolio "1" o-- "*" SuratBerhargaNegara
 
 ![](skenarioprogram/UML.png)
 
+---
+
 ## Skenario Program: Simulasi Investasi Saham & SBN
 
 Berikut ini adalah skenario lengkap program berbasis terminal yang mensimulasikan proses login, pembelian/penjualan saham, pembelian dan simulasi SBN, hingga logout dan keluar dari program.
 
 ---
-
+## User
 ### Step 1: Login
 
 ![Login](skenarioprogram/step1.png)
@@ -157,5 +159,70 @@ Program kemudian mengarahkan pengguna kembali ke Menu Utama, di mana tersedia pi
 
 Setelah logout dan kembali ke Menu Utama, pengguna memilih opsi 2 (Keluar).  
 Program kemudian menampilkan pesan _"Program selesai. Terima kasih!"_ dan proses program diakhiri dengan exit code 0, yang menandakan bahwa program telah berhenti dengan normal tanpa error.
+
+---
+
+## Admin
+### Step 1: Login
+
+![Login](skenarioprogram/step1a.jpg)
+
+Pada tahap ini, program menampilkan MENU UTAMA, dan pengguna memilih opsi Login. Dengan memasukkan username admin dan password admin123, pengguna berhasil masuk sebagai admin. Program kemudian menampilkan MENU ADMIN yang berisi opsi untuk menambah, mengubah, menghapus saham, menambah SBN, menampilkan daftar produk, dan logout.
+
+---
+
+### Step 2: Tambah Saham
+
+![Tambah Saham](skenarioprogram/step2a.jpg)
+
+Pada tahap ini, setelah masuk ke MENU ADMIN, pengguna memilih opsi 1. Tambah Saham. Program meminta input berupa kode saham (BBNI), nama perusahaan (Bank Negara Indonesia), dan harga saham (6500). Setelah data diisi, program menampilkan pesan konfirmasi bahwa saham berhasil ditambahkan ke daftar investasi.
+
+---
+
+### Step 3: Ubah Harga Saham
+
+![Ubah Harga Saham](skenarioprogram/step3a.jpg)
+
+Pada tahap ini, pada MENU ADMIN, pengguna memilih opsi 2. Ubah Harga Saham. Program menampilkan daftar saham yang tersedia, kemudian pengguna memilih saham BBNI - Bank Negara Indonesia. Setelah memasukkan harga baru (5700), program menampilkan konfirmasi bahwa harga saham berhasil diubah.
+
+---
+
+### Step 4: Hapus Saham
+
+![Hapus Saham](skenarioprogram/step4a.jpg)
+
+Pada tahap ini, pada MENU ADMIN, pengguna memilih opsi 3. Hapus Saham. Program menampilkan daftar saham yang tersedia, lalu pengguna memilih saham BBNI - Bank Negara Indonesia untuk dihapus. Setelah dipilih, program mengonfirmasi bahwa saham tersebut berhasil dihapus dari daftar.
+
+---
+
+### Step 5: Tambah Saham
+
+![Tambah Saham](skenarioprogram/step5a.jpg)
+
+Pada tahap ini, pada MENU ADMIN, pengguna memilih opsi 4. Tambah SBN. Program meminta input data SBN, yaitu nama (SR017), bunga (5.9), jangka waktu (36 bulan), tanggal jatuh tempo (12-05-2028), dan kuota nasional (5000000000). Setelah semua data diisi, program menampilkan konfirmasi bahwa SBN berhasil ditambahkan ke daftar.
+
+---
+
+### Step 6: Tampilkan Daftar Produk
+
+![Tampilkan Daftar Produk](skenarioprogram/step6a.jpg)
+
+Pada tahap ini, di MENU ADMIN, pengguna memilih opsi 5. Tampilkan Daftar Produk. Program menampilkan seluruh daftar saham dan SBN yang tersedia, lengkap dengan informasi kode, nama, harga untuk saham, serta bunga, tanggal jatuh tempo, dan kuota nasional untuk SBN.
+
+---
+
+### Step 7: Logout
+
+![Logout](skenarioprogram/step7a.png)
+
+Pada tahap ini pengguna memilih opsi 6 (Logout) dari Menu Admin.
+Program kemudian mengarahkan admin kembali ke Menu Utama, di mana tersedia pilihan Login untuk masuk kembali atau Keluar untuk menutup program.
+
+### Step 8: Keluar
+
+![Keluar](skenarioprogram/step8a.png)
+
+Pada tahap ini di menu Admin, pengguna memilih opsi 2 (keluar)
+Program kemudian menampilkan pesan "Program selesai. Terima kasih!" dan proses program diakhiri dengan exit code 0, yang menandakan bahwa program telah berhenti dengan normal tanpa error.
 
 ---
