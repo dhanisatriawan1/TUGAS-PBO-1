@@ -71,6 +71,8 @@ Portofolio "1" o-- "*" SuratBerhargaNegara
 
 @enduml
 
+![](skenarioprogram/UML.png)
+
 ## Skenario Program: Simulasi Investasi Saham & SBN
 
 Berikut ini adalah skenario lengkap program berbasis terminal yang mensimulasikan proses login, pembelian/penjualan saham, pembelian dan simulasi SBN, hingga logout dan keluar dari program.
