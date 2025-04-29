@@ -78,8 +78,8 @@ Berikut ini adalah skenario lengkap program berbasis terminal yang mensimulasika
 ---
 
 ### Step 1: Login
-![Login](https://raw.githubusercontent.com/dhanisatriawan1/TUGAS-PBO-1/main/src/skenarioprogram/step1.png)
 
+![Login](skenarioprogram/step1.png)
 
 Setelah program dijalankan, pengguna akan melihat menu utama dengan dua pilihan: Login dan Keluar.  
 Pengguna memilih menu 1 (Login), lalu diminta memasukkan username dan password.  
@@ -100,7 +100,7 @@ Program menampilkan pesan bahwa pembelian berhasil.
 
 ### Step 3: Jual Saham
 
-![Jual Saham](src/skenarioprogram/step3.png)
+![Jual Saham](skenarioprogram/step3.png)
 
 Dari Menu Customer, pengguna memilih opsi 2 (Jual Saham).  
 Program menampilkan daftar saham yang dimiliki, dalam contoh ini adalah BBRI dengan jumlah 500 lembar.  
@@ -111,7 +111,7 @@ Program kemudian mengonfirmasi bahwa penjualan berhasil.
 
 ### Step 4: Beli SBN
 
-![Beli SBN](src/skenarioprogram/step4.png)
+![Beli SBN](skenarioprogram/step4.png)
 
 Di Menu Customer, pengguna memilih opsi 3 (Beli SBN).  
 Program menampilkan daftar produk SBN (Surat Berharga Negara) yang tersedia, seperti SBR012 dan ORI021, beserta detail bunga, tempo, dan kuota.  
@@ -122,7 +122,7 @@ Program kemudian menampilkan pesan bahwa pembelian SBN berhasil.
 
 ### Step 5: Simulasi SBN
 
-![Simulasi SBN](src/skenarioprogram/step5.png)
+![Simulasi SBN](skenarioprogram/step5.png)
 
 Pada Menu Customer, pengguna memilih opsi 4 (Simulasi SBN).  
 Program meminta pengguna memasukkan nominal investasi untuk setiap produk SBN, seperti SBR012 dan ORI021.  
@@ -132,7 +132,7 @@ Setelah input nominal Rp 5.000.000 untuk kedua produk, program menghitung dan me
 
 ### Step 6: Portofolio
 
-![Portofolio](src/skenarioprogram/step6.png)
+![Portofolio](skenarioprogram/step6.png)
 
 Pengguna memilih opsi 5 (Portofolio) dari Menu Customer.  
 Program kemudian menampilkan semua aset investasi yang dimiliki, baik saham maupun SBN.  
@@ -142,7 +142,7 @@ Dalam kasus ini, hanya investasi di SBR012 yang tercatat, dengan nilai Rp 5.000.
 
 ### Step 7: Logout
 
-![Logout](src/skenarioprogram/step7.png)
+![Logout](skenarioprogram/step7.png)
 
 Pengguna memilih opsi 6 (Logout) dari Menu Customer.  
 Program kemudian mengarahkan pengguna kembali ke Menu Utama, di mana tersedia pilihan Login untuk masuk kembali atau Keluar untuk menutup program.
@@ -151,7 +151,7 @@ Program kemudian mengarahkan pengguna kembali ke Menu Utama, di mana tersedia pi
 
 ### Step 8: Keluar
 
-![Keluar](src/skenarioprogram/step8.png)
+![Keluar](skenarioprogram/step8.png)
 
 Setelah logout dan kembali ke Menu Utama, pengguna memilih opsi 2 (Keluar).  
 Program kemudian menampilkan pesan _"Program selesai. Terima kasih!"_ dan proses program diakhiri dengan exit code 0, yang menandakan bahwa program telah berhenti dengan normal tanpa error.
