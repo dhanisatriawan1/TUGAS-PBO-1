@@ -201,9 +201,9 @@ Pada tahap ini, pada MENU ADMIN, pengguna memilih opsi 3. Hapus Saham. Program m
 
 ---
 
-### Step 5: Tambah Saham
+### Step 5: Tambah SBN
 
-![Tambah Saham](skenarioprogram/step5a.jpg)
+![Tambah SBN](skenarioprogram/step5a.jpg)
 
 Pada tahap ini, pada MENU ADMIN, pengguna memilih opsi 4. Tambah SBN. Program meminta input data SBN, yaitu nama (SR017), bunga (5.9), jangka waktu (36 bulan), tanggal jatuh tempo (12-05-2028), dan kuota nasional (5000000000). Setelah semua data diisi, program menampilkan konfirmasi bahwa SBN berhasil ditambahkan ke daftar.
 
