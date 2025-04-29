@@ -218,6 +218,8 @@ Pada tahap ini, di MENU ADMIN, pengguna memilih opsi 5. Tampilkan Daftar Produk.
 Pada tahap ini pengguna memilih opsi 6 (Logout) dari Menu Admin.
 Program kemudian mengarahkan admin kembali ke Menu Utama, di mana tersedia pilihan Login untuk masuk kembali atau Keluar untuk menutup program.
 
+---
+
 ### Step 8: Keluar
 
 ![Keluar](skenarioprogram/step8a.png)
